@@ -68,11 +68,53 @@
     <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBodega.Designer.cs">
+      <DependentUpon>frmBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConfirmarContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmConfirmarContraseña.Designer.cs">
       <DependentUpon>frmConfirmarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExistencias.Designer.cs">
+      <DependentUpon>frmExistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLineas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLineas.Designer.cs">
+      <DependentUpon>frmLineas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarcas.Designer.cs">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendedores.Designer.cs">
+      <DependentUpon>frmVendedores.cs</DependentUpon>
     </Compile>
     <Compile Include="PendienteDeRevision.cs">
       <SubType>Form</SubType>
@@ -129,8 +171,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmBodega.resx">
+      <DependentUpon>frmBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConfirmarContraseña.resx">
       <DependentUpon>frmConfirmarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExistencias.resx">
+      <DependentUpon>frmExistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLineas.resx">
+      <DependentUpon>frmLineas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarcas.resx">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendedores.resx">
+      <DependentUpon>frmVendedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PendienteDeRevision.resx">
       <DependentUpon>PendienteDeRevision.cs</DependentUpon>

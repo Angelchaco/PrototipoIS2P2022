@@ -44,11 +44,11 @@ namespace CapaVistaSeguridadHSC
        
         private void btnCambioContraseña_Click(object sender, EventArgs e)
         {
-            frmCambioContraseña form3 = new frmCambioContraseña();
+           /*frmCambioContraseña form3 = new frmCambioContraseña();
             form3.MdiParent = this;
             //Jorge González 0901-18-3920
             bitacora.guardarEnBitacora(IdUsuario, "1", "0010", "Entrada a la Vista");
-            form3.Show();
+            form3.Show();*/
         }
 
         private void btnAsiginaciónDePerfilesAUsuarios_Click(object sender, EventArgs e)
@@ -88,5 +88,62 @@ namespace CapaVistaSeguridadHSC
             }
         }
 
+        private void mantenimientosVendedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+           frmVendedores form = new frmVendedores();
+           form.MdiParent = this;
+           bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+           form.Show();
+
+        }
+
+        private void mantenimientosClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCliente form = new frmCliente();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
+
+        private void mantenimientosMarcasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMarcas form = new frmMarcas();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
+
+        private void mantenimientosLineasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLineas form = new frmLineas();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
+
+        private void mantenimientosBodegaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBodega form = new frmBodega();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
+
+        private void mantenimientosProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProductos form = new frmProductos();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
+
+        private void mantenimientosExistenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmExistencias form = new frmExistencias();
+            form.MdiParent = this;
+            bitacora.guardarEnBitacora(IdUsuario, "1", "0007", "Entrada a la Vista");
+            form.Show();
+        }
     }
 }

@@ -31,9 +31,17 @@ namespace CapaVistaSeguridadHSC
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMIDSeguridad));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosVendedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosMarcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosLineasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosBodegaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosExistenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCambioContraseña = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,9 +57,9 @@ namespace CapaVistaSeguridadHSC
             // 
             this.menuStrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mantenimientosToolStripMenuItem,
             this.salirToolStripMenuItem1,
             this.toolStripMenuItem1,
-            this.mantenimientosToolStripMenuItem,
             this.asignacionesToolStripMenuItem1,
             this.btnCambioContraseña,
             this.herramientasToolStripMenuItem,
@@ -63,22 +71,86 @@ namespace CapaVistaSeguridadHSC
             this.menuStrip.TabIndex = 3;
             this.menuStrip.Text = "MenuStrip";
             // 
+            // mantenimientosToolStripMenuItem
+            // 
+            this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mantenimientosVendedoresToolStripMenuItem,
+            this.mantenimientosClientesToolStripMenuItem,
+            this.mantenimientosMarcasToolStripMenuItem,
+            this.mantenimientosLineasToolStripMenuItem,
+            this.mantenimientosBodegaToolStripMenuItem,
+            this.mantenimientosProductosToolStripMenuItem,
+            this.mantenimientosExistenciasToolStripMenuItem,
+            this.mantenimientosProveedoresToolStripMenuItem});
+            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(54, 24);
+            this.mantenimientosToolStripMenuItem.Text = "Abrir";
+            // 
+            // mantenimientosVendedoresToolStripMenuItem
+            // 
+            this.mantenimientosVendedoresToolStripMenuItem.Name = "mantenimientosVendedoresToolStripMenuItem";
+            this.mantenimientosVendedoresToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosVendedoresToolStripMenuItem.Text = "Mantenimientos Vendedores";
+            this.mantenimientosVendedoresToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosVendedoresToolStripMenuItem_Click);
+            // 
+            // mantenimientosClientesToolStripMenuItem
+            // 
+            this.mantenimientosClientesToolStripMenuItem.Name = "mantenimientosClientesToolStripMenuItem";
+            this.mantenimientosClientesToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosClientesToolStripMenuItem.Text = "Mantenimientos Clientes";
+            this.mantenimientosClientesToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosClientesToolStripMenuItem_Click);
+            // 
+            // mantenimientosMarcasToolStripMenuItem
+            // 
+            this.mantenimientosMarcasToolStripMenuItem.Name = "mantenimientosMarcasToolStripMenuItem";
+            this.mantenimientosMarcasToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosMarcasToolStripMenuItem.Text = "Mantenimientos Marcas";
+            this.mantenimientosMarcasToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosMarcasToolStripMenuItem_Click);
+            // 
+            // mantenimientosLineasToolStripMenuItem
+            // 
+            this.mantenimientosLineasToolStripMenuItem.Name = "mantenimientosLineasToolStripMenuItem";
+            this.mantenimientosLineasToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosLineasToolStripMenuItem.Text = "Mantenimientos Lineas";
+            this.mantenimientosLineasToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosLineasToolStripMenuItem_Click);
+            // 
+            // mantenimientosBodegaToolStripMenuItem
+            // 
+            this.mantenimientosBodegaToolStripMenuItem.Name = "mantenimientosBodegaToolStripMenuItem";
+            this.mantenimientosBodegaToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosBodegaToolStripMenuItem.Text = "Mantenimientos Bodega";
+            this.mantenimientosBodegaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosBodegaToolStripMenuItem_Click);
+            // 
+            // mantenimientosProductosToolStripMenuItem
+            // 
+            this.mantenimientosProductosToolStripMenuItem.Name = "mantenimientosProductosToolStripMenuItem";
+            this.mantenimientosProductosToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosProductosToolStripMenuItem.Text = "Mantenimientos Productos";
+            this.mantenimientosProductosToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosProductosToolStripMenuItem_Click);
+            // 
+            // mantenimientosExistenciasToolStripMenuItem
+            // 
+            this.mantenimientosExistenciasToolStripMenuItem.Name = "mantenimientosExistenciasToolStripMenuItem";
+            this.mantenimientosExistenciasToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosExistenciasToolStripMenuItem.Text = "Mantenimientos Existencias";
+            this.mantenimientosExistenciasToolStripMenuItem.Click += new System.EventHandler(this.mantenimientosExistenciasToolStripMenuItem_Click);
+            // 
+            // mantenimientosProveedoresToolStripMenuItem
+            // 
+            this.mantenimientosProveedoresToolStripMenuItem.Name = "mantenimientosProveedoresToolStripMenuItem";
+            this.mantenimientosProveedoresToolStripMenuItem.Size = new System.Drawing.Size(284, 24);
+            this.mantenimientosProveedoresToolStripMenuItem.Text = "Mantenimientos Proveedores";
+            // 
             // salirToolStripMenuItem1
             // 
             this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(54, 24);
-            this.salirToolStripMenuItem1.Text = "Abrir";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(93, 24);
+            this.salirToolStripMenuItem1.Text = "Catalogos";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 24);
-            // 
-            // mantenimientosToolStripMenuItem
-            // 
-            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
-            this.mantenimientosToolStripMenuItem.Text = "Catalogos";
             // 
             // asignacionesToolStripMenuItem1
             // 
@@ -148,7 +220,7 @@ namespace CapaVistaSeguridadHSC
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "frmMIDSeguridad";
-            this.Text = "Seguridad HSC";
+            this.Text = "9959-18-5201 Angel Antonio Vail Chacon";
             this.Load += new System.EventHandler(this.frmLoginHSC_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
@@ -171,5 +243,13 @@ namespace CapaVistaSeguridadHSC
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosVendedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosClientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosMarcasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosLineasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosBodegaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosExistenciasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosProductosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosProveedoresToolStripMenuItem;
     }
 }

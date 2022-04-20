@@ -1179,7 +1179,6 @@ C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoI
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaModeloNav.pdb
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaControlador.pdb
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaModelo.pdb
-C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.csproj.AssemblyReference.cache
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmConfirmarContraseña.resources
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.PendienteDeRevision.resources
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmBitacora.resources
@@ -1194,3 +1193,11 @@ C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoI
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.csproj.CopyComplete
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.dll
 C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.pdb
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmVendedores.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmCliente.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmMarcas.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmLineas.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.csproj.AssemblyReference.cache
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmBodega.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmProductos.resources
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\PrototipoIS2P2022\Componentes\Seguridad\SeguridadHSC\CapaVista\obj\Debug\CapaVistaSeguridadHSC.frmExistencias.resources
