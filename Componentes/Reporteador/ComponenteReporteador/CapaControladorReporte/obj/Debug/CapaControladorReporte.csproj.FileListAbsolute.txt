@@ -1,0 +1,9 @@
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaControladorReporte.dll
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaControladorReporte.pdb
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaModeloReporte.dll
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaModeloReporte.pdb
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.AssemblyReference.cache
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.CoreCompileInputs.cache
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.CopyComplete
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.dll
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.pdb

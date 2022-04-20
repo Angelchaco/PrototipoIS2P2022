@@ -1,0 +1,6 @@
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\bin\Debug\CapaModeloReporte.dll
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\bin\Debug\CapaModeloReporte.pdb
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\obj\Debug\CapaModeloReporte.csproj.AssemblyReference.cache
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\obj\Debug\CapaModeloReporte.csproj.CoreCompileInputs.cache
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\obj\Debug\CapaModeloReporte.dll
+C:\Users\achac\OneDrive\Escritorio\RRHH\2do parcial\PrototipoIS2P2022\Componentes\Reporteador\ComponenteReporteador\CapaModeloReporte\obj\Debug\CapaModeloReporte.pdb
